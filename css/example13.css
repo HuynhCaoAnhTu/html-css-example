@@ -1,53 +1,66 @@
-div{
-    width: 200px;
-    height: 90px;
-    background-color: red;
-    margin-top: 70px;
+div {
+  width: 200px;
+  height: 90px;
+  background-color: red;
+  margin-top: 70px;
 }
-div.a{
-   
-    overflow: hidden;
-    
+div.a {
+  overflow: hidden;
 }
-div.b{
-   
-    overflow: scroll;
+div.b {
+  overflow: scroll;
 }
-div.c{
-   
-    overflow: visible;
+div.c {
+  overflow: visible;
 }
-div.d{
-   
-    overflow: auto;
+div.d {
+  overflow: auto;
 }
 
-p.one {border-style: solid;}
-p.two {border-style: dotted;}
-p.three {border-style: dashed;}
-p.four {border-style: double;}
-p.five {border-style: groove;}
-p.six {border-style: ridge;}
-p.seven {border-style: inset;}
-p.eight {border-style: outset;}
+p.one {
+  border-style: solid;
+}
+p.two {
+  border-style: dotted;
+}
+p.three {
+  border-style: dashed;
+}
+p.four {
+  border-style: double;
+}
+p.five {
+  border-style: groove;
+}
+p.six {
+  border-style: ridge;
+}
+p.seven {
+  border-style: inset;
+}
+p.eight {
+  border-style: outset;
+}
 
 body {
-    text-align: center;}
+  text-align: center;
+}
 p.sd {
-    width: 300px;
-    padding: 50px;
-    border: 20px solid #0088dd;}
+  width: 300px;
+  padding: 50px;
+  border: 20px solid #0088dd;
+}
 p.example {
-    margin: 10px auto 10px auto;
-    width: 300px;
-    padding: 50px;
-    border: 20px solid #0088dd;}
+  margin: 10px auto 10px auto;
+  width: 300px;
+  padding: 50px;
+  border: 20px solid #0088dd;
+}
 
 .example1 {
-    background-color:#FFFFFF;
-    border: 15px solid transparent;
-    width: 300px;
+  background-color: #ffffff;
+  border: 15px solid transparent;
+  width: 300px;
 
-    border-image: url(/images/border-image.jfif) 50 stretch;
-  
+  border-image: url(/images/border-image.jfif) 50 stretch;
 }

@@ -1,67 +1,62 @@
-body{
-    height: 5000px;
+body {
+  height: 5000px;
 }
 
-.relative-test{
-   background-color: red;
-   width:300px; 
-   height: 300px;
-   position: relative;
-   top: 100px;
-   left: 400px;
+.relative-test {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  left: 400px;
 }
-.absolute-test{
-    background-color: orange;
-    width:100px; 
-    height: 100px;
-    position: absolute;
-    top:50px;
-    z-index: 3;
- }
-.fix-test{
-    background-color: blue;
-    width:300px; 
-    height: 300px;
-    position: fixed;
-    bottom: 0px;
- }
-
-.float-test{
-    float: right;
-    border: 1px solid black
-    ;
-    padding: 20px;
-    
+.absolute-test {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  z-index: 3;
+}
+.fix-test {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  bottom: 0px;
 }
 
-.p6{
-    width: 230px;
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    background-color: #efefef;
+.float-test {
+  float: right;
+  border: 1px solid black;
+  padding: 20px;
+}
 
+.p6 {
+  width: 230px;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  background-color: #efefef;
 }
-.logo{
-    text-align: center;
+.logo {
+  text-align: center;
 }
-.navbar{
-   background-color: rgb(78, 71, 71);
-   /* height: 20px; */
-    display: flex;
-   justify-content: center;
-
+.navbar {
+  background-color: rgb(78, 71, 71);
+  /* height: 20px; */
+  display: flex;
+  justify-content: center;
 }
-li{
-    float: left;
-    margin-left: 20px;
-    list-style: none;
-   
+li {
+  float: left;
+  margin-left: 20px;
+  list-style: none;
 }
-.info{
-    float: left;
-    margin: 10px 10px 0 0;
-    width: 32.8%;
-    height: 50px;
-    background-color: antiquewhite;
+.info {
+  float: left;
+  margin: 10px 10px 0 0;
+  width: 32.8%;
+  height: 50px;
+  background-color: antiquewhite;
 }
