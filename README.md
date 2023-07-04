@@ -10,7 +10,7 @@
 * Target :
     - Target: get basic knowledge of HTML5 and CSS3
 
-## LEARN REACT
+## LEARN HTML/CSS
 
 * This is my HTML/CSS plan: [Doc](https://docs.google.com/document/d/1dIQODa6CNY27M5WI0_5kNBDp3QRcF46xTqw9es5WVu0/edit)
 
