@@ -5,7 +5,7 @@ body {
   background-color: #f8f8f8;
 }
 li {
-  list-style-image: url("/images/pngwing.com\ \(1\).png");
+  list-style-image: url("./assets/images/pngwing.com\ \(1\).png");
   line-height: 1.6em;
 }
 table {
