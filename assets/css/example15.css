@@ -48,7 +48,7 @@ body {
   display: flex;
   justify-content: center;
 }
-li {
+.navbar__list-item {
   float: left;
   margin-left: 20px;
   list-style: none;

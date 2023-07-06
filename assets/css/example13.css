@@ -1,56 +1,55 @@
-div {
+.space {
   width: 200px;
   height: 90px;
-  background-color: red;
   margin-top: 70px;
 }
-div.a {
+.a {
   overflow: hidden;
 }
-div.b {
+.b {
   overflow: scroll;
 }
-div.c {
+.c {
   overflow: visible;
 }
-div.d {
+.d {
   overflow: auto;
 }
 
-p.one {
+.one {
   border-style: solid;
 }
-p.two {
+.two {
   border-style: dotted;
 }
-p.three {
+.three {
   border-style: dashed;
 }
-p.four {
+.four {
   border-style: double;
 }
-p.five {
+.five {
   border-style: groove;
 }
-p.six {
+.six {
   border-style: ridge;
 }
-p.seven {
+.seven {
   border-style: inset;
 }
-p.eight {
+.eight {
   border-style: outset;
 }
 
 body {
   text-align: center;
 }
-p.sd {
+.sd {
   width: 300px;
   padding: 50px;
   border: 20px solid #0088dd;
 }
-p.example {
+.example {
   margin: 10px auto 10px auto;
   width: 300px;
   padding: 50px;

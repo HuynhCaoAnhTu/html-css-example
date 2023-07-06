@@ -4,29 +4,30 @@ body {
   color: #666;
   background-color: #f8f8f8;
 }
-li {
+.list-items {
   list-style-image: url("./assets/images/pngwing.com\ \(1\).png");
   line-height: 1.6em;
 }
-table {
+.table {
   border-spacing: 0px;
 }
-th,
-td {
+.table th,
+.table td {
   padding: 5px 30px 5px 10px;
   border-spacing: 0px;
   font-size: 90%;
   margin: 0px;
+  text-align: left;
+
 }
-th,
-td {
+.border {
   text-align: left;
   background-color: #e0e9f0;
   border-top: 1px solid #f1f8fe;
   border-bottom: 1px solid #cbd2d8;
   border-right: 1px solid #cbd2d8;
 }
-tr.head th {
+.head-text {
   color: #fff;
   background-color: #90b4d6;
   border-bottom: 2px solid #547ca0;
@@ -39,20 +40,7 @@ tr.head th {
 td {
   text-shadow: 1px 1px 1px #fff;
 }
-tr.even td,
-tr.even th {
-  background-color: #e8eff5;
-}
-tr.head th:first-child {
-  -webkit-border-top-left-radius: 5px;
-  -moz-border-radius-topleft: 5px;
-  border-top-left-radius: 5px;
-}
-tr.head th:last-child {
-  -webkit-border-top-right-radius: 5px;
-  -moz-border-radius-topright: 5px;
-  border-top-right-radius: 5px;
-}
+
 fieldset {
   width: 310px;
   margin-top: 20px;
@@ -64,18 +52,18 @@ legend {
   font-style: italic;
   color: #666666;
 }
-input[type="text"] {
+.input-text {
   width: 120px;
   border: 1px solid #d6d6d6;
   padding: 2px;
   outline: none;
 }
-input[type="text"]:focus,
-input[type="text"]:hover {
+.input-text:focus,
+.input-text:hover {
   background-color: #d0e2f0;
   border: 1px solid #999;
 }
-input[type="submit"] {
+.input-submit {
   border: 1px solid #006633;
   background-color: #009966;
   color: #ffffff;
@@ -83,7 +71,7 @@ input[type="submit"] {
   padding: 5px;
   margin-top: 10px;
 }
-input[type="submit"]:hover {
+.input-submit:hover {
   border: 1px solid #006633;
 
   background-color: #00cc33;

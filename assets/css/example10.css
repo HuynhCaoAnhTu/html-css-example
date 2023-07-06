@@ -1,10 +1,9 @@
 body {
   font-family: Arial, Verdana, sans-serif;
 }
-h1,
-h2 {
+.title {
   color: #ee3e80;
 }
-p {
+.title_desc{
   color: #665544;
 }
