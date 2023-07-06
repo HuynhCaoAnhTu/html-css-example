@@ -27,9 +27,9 @@ a {
   border: 2px solid #000000;
   background-color: #ffffff;
 }
-header {
+.header {
   height: 130px;
-  background-image: url(/images/header.jfif);
+  background-image: url(/assets/images/header.jfif);
 }
 .header__title {
   color: #000;
@@ -39,8 +39,8 @@ header {
   display: flex;
   align-items: end;
 }
-nav,
-footer {
+.navbar,
+.footer {
   clear: both;
   color: #ffffff;
   background-color: #aeaca8;
@@ -53,13 +53,16 @@ footer {
 .navbar__list-item {
   display: inline;
   margin-right: 40px;
+  color: #ffffff;
 }
 .navbar__item-link {
   color: #ffffff;
 }
-.navbar__item-link :hover,
-.navbar__item-link  {
+.navbar__item-link:hover {
   color: #000000;
+}
+.current{
+  color: #000;
 }
 .courses {
   float: left;
@@ -67,7 +70,7 @@ footer {
   margin-top: 20px;
   border-right: 1px solid #eeeeee;
 }
-.arti_courses{
+.arti_courses {
   clear: both;
 
   width: 100%;
@@ -90,14 +93,13 @@ footer {
 .recipes-contact {
   width: 230px;
   float: left;
-  padding: 0px 0px 0px 20px;
+  padding: 30px 0px 0px 20px;
 }
 .popular-recipes__link {
   display: block;
   padding: 10px;
   border-bottom: 1px solid #eeeeee;
   color: #de6581;
- 
 }
 .popular-recipes__link:hover {
   color: #985d6a;
@@ -116,7 +118,7 @@ footer {
   padding: 30px 0px 10px 0px;
   color: #de6581;
 }
-footer {
+.footer {
   font-size: 80%;
   padding: 7px 0px 0px 20px;
 }
